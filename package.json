@@ -1,0 +1,20 @@
+{
+  "name": "foxit-minimal",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.1.8",
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@foxitsoftware/foxit-pdf-sdk-for-web-library": "^10.0.3"
+  }
+}
