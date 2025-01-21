@@ -14,7 +14,8 @@ Create a new `.env` file in the root directory and add your environment variable
 touch .env
 ```
 
-```properties filename=".env"
+```env
+# .env
 PUBLIC_FOXIT_SN="YOUR_FOXIT_SN"
 PUBLIC_FOXIT_KEY="YOUR_FOXIT_KEY"
 ```
