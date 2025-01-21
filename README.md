@@ -15,8 +15,8 @@ touch .env
 ```
 
 ```env
-PUBLIC_FOXIT_SN=""
-PUBLIC_FOXIT_KEY=""
+PUBLIC_FOXIT_SN="YOUR_FOXIT_SN"
+PUBLIC_FOXIT_KEY="YOUR_FOXIT_KEY"
 ```
 
 ## Get Started
