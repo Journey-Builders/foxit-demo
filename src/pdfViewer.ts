@@ -56,7 +56,7 @@ export class PDFViewer {
       await this.pdfui.waitForInitialization();
       await this.pdfui.initAnnotationIcons(this.getStampIcons());
     } catch (error) {
-      console.error('Something went wrong');
+      console.error('Something went wrong', error);
     }
   }
 }

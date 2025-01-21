@@ -5,7 +5,7 @@
 Install the dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 Create a new `.env` file in the root directory and add your environment variables:
@@ -25,17 +25,17 @@ PUBLIC_FOXIT_KEY="YOUR_FOXIT_KEY"
 Start the dev server:
 
 ```bash
-pnpm dev
+npm dev
 ```
 
 Build the app for production:
 
 ```bash
-pnpm build
+npm build
 ```
 
 Preview the production build locally:
 
 ```bash
-pnpm preview
+npm preview
 ```
