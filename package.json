@@ -5,11 +5,15 @@
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
+    "check": "biome check --write",
+    "format": "biome format --write",
     "preview": "rsbuild preview"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
     "@rsbuild/core": "^1.1.8",
     "@types/fs-extra": "^11.0.4",
+    "dotenv": "^16.4.7",
     "fs-extra": "^11.3.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"

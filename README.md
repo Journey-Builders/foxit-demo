@@ -8,6 +8,17 @@ Install the dependencies:
 pnpm install
 ```
 
+Create a new `.env` file in the root directory and add your environment variables:
+
+```bash
+touch .env
+```
+
+```env
+PUBLIC_FOXIT_SN=""
+PUBLIC_FOXIT_KEY=""
+```
+
 ## Get Started
 
 Start the dev server:
